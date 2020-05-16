@@ -24,7 +24,7 @@ In the  application root folder run the following
 
 Deployment Results
 
-![deployment](deployment_screenshots/deploy.png)
+![deployment](./deployment_screenshots/deploy.png)
 
 * Deployed URL : `http://udagram-image-filter-dev2.us-east-2.elasticbeanstalk.com/`
 * Test with a Valid Image URL: `http://udagram-image-filter-dev2.us-east-2.elasticbeanstalk.com/filteredimage/?image_url=https://images.tori.fi/api/v1/imagestori/images/8610019184.jpg?rule=medium_660`
