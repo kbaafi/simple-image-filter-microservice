@@ -28,19 +28,13 @@ export async function filterImageFromURL(inputURL: string): Promise<string>{
 // INPUTS
 //    files: Array<string> an array of absolute paths to files
 export async function deleteLocalFiles(files:Array<string>){
-    for( var index = 0; index < files.length; index++) {
+    for( var item in files) {
         try{
-            if (fs.existsSync(files[index])){
-                fs.unlinkSync(files[index]);
-                console.log("unsynced");
-                files.splice(index, 1);
-                console.log(files);
+            if (fs.existsSync(item)){
+                fs.unlinkSync(item);
             }
         }catch(e) {
-            console.log("exception here");
-            if (e.code === 'ENOENT'){
-                console.log("caught ENOENT")
-            }
+            console.log(e);
         }
     }
 }
