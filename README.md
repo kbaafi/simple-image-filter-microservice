@@ -24,7 +24,7 @@ In the  application root folder run the following
 
 Deployment Results
 
-[deployment]:/deployment_screenshots/deploy.png
+[deployment]:./deployment_screenshots/deploy.png
 ![deployment]
 
 * Deployed URL : `http://udagram-image-filter-dev2.us-east-2.elasticbeanstalk.com/`
